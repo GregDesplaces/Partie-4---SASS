@@ -1,0 +1,19 @@
+{
+  "name": "orga-sass",
+  "version": "1.0.0",
+  "description": "Savoir organiser et transpiler un projet qui utilise le sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./app/scss/style.scss ./public/css/style.css --watch"
+  },
+  "keywords": [
+    "sass",
+    "organisation"
+  ],
+  "author": "Greg Desplaces",
+  "license": "ISC",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
+}
