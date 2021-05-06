@@ -12,14 +12,21 @@ body {
 p, a, address {
   font-family: $font-main;
   font-size: .8rem;
+  line-height: 1.3rem;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  transition: all .15s ease-in-out;
+
+  &:hover {
+    color: $lightgrey;
+  }
 }
 
 .subtitle {
   text-transform: uppercase;
   font-weight: bold;
+  letter-spacing: 0.1rem;
 }

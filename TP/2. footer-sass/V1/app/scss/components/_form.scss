@@ -15,10 +15,10 @@ form {
   }
 }
 
-// J'imagine que je pourrais avoir des formulaire sur fond plus clair, donc je fais une classe spéciale pour la couleur grise
+// J'imagine que je pourrais avoir des formulaires sur fond plus clair, donc je fais une classe spéciale pour la couleur grise
 .grey {
-  input, textarea {
+  input[type="text"], input[type="email"],input[type="tel"],input[type="url"], textarea {
     border: 1px solid $darkgrey;
-    background: transparent;
+    background: transparent ;
   }
 }
