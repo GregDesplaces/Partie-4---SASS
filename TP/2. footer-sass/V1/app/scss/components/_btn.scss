@@ -1,0 +1,19 @@
+.gd-btn {
+  display: inline-block;
+  padding: $padding-s $padding-xl;
+  font-size: .8rem;
+  transition: all .15s ease;
+  border: 1px solid;
+
+  &-grey {
+    color: $lightgrey;
+    background: $darkgrey;
+    border-color: $darkgrey;
+
+    &:hover {
+      background: transparent;
+      border-color: $lightgrey;
+    }
+  }
+
+}

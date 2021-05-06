@@ -1,0 +1,22 @@
+// Google font
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@300;600&display=swap');
+
+// Font
+$font-main: 'Montserrat', sans-serif;
+$font-headings: 'Montserrat', sans-serif;
+
+// Colors
+$darkergrey: #292929;
+$darkgrey: #454545;
+$grey: #949494;
+$lightgrey: #E3E3E3;
+
+// Paddings
+$padding : 0.8rem;
+$padding-xxs : $padding*0.125;
+$padding-xs : $padding*0.25;
+$padding-xs : $padding*0.25;
+$padding-s : $padding*0.5;
+$padding-l : $padding*2;
+$padding-xl : $padding*4;
+$padding-xxl : $padding*8;

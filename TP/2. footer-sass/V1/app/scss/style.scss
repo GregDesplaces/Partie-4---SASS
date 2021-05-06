@@ -1,0 +1,12 @@
+// Reset CSS => le fichier reboot de Bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap-reboot.scss';
+
+@import 'variables';
+@import 'mixins';
+@import 'text-format';
+@import 'theme-color';
+@import 'components/logo';
+@import 'components/btn';
+@import 'components/social';
+@import 'components/form';
+@import 'layout/footer';

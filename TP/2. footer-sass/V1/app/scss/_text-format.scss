@@ -1,0 +1,25 @@
+body {
+  font-family: $font-main;
+}
+
+@include headings() {
+  font-family: $font-headings;
+  // FIXME : bold non actif
+  font-size: 600;
+  text-transform: uppercase;
+}
+
+p, a, address {
+  font-family: $font-main;
+  font-size: .8rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-weight: bold;
+}
