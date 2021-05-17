@@ -32,6 +32,7 @@ header {
         color: $white;
 
         p.hero {
+            font: $font-headings;
             color: inherit;
             margin-top: $margin-xxlarge;
             margin-bottom: $margin-large;
