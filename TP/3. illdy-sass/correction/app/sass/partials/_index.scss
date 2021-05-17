@@ -1,0 +1,255 @@
+//****************************
+//  HEADER
+//****************************
+
+body {
+  min-width: $bp-small;
+}
+
+header {
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    padding-bottom: $padding-xxlarge;
+
+    #header-top {
+        display: flex;
+        max-width: 960px;
+        margin: 0 auto;
+        justify-content: space-between;
+        padding: $padding 0 0 0;
+
+        h1 {
+            display: none;
+        }
+
+        @include breakpoint($bp-large) {
+            flex-direction: column;
+        }
+    }
+
+    #header-main {
+
+        color: $white;
+
+        p.hero {
+            color: inherit;
+            margin-top: $margin-xxlarge;
+            margin-bottom: $margin-large;
+
+            span {
+                font-family: $font;
+            }
+        }
+
+        p {
+            margin-bottom: $margin-xlarge;
+        }
+
+        div a:first-child {
+          margin-right: $margin-large;
+
+          @include breakpoint($bp-large) {
+            margin-right: 0;
+            margin-bottom: $margin-small;
+          }
+      }
+    }
+
+
+}
+
+//****************************
+//  MAIN
+//****************************
+
+
+// --- About ---
+section#about {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 $padding-xsmall $padding-xlarge*1.3 $padding-xsmall;
+
+    @include breakpoint($bp-large) {
+        padding-bottom: $padding-large;
+    }
+
+
+    h2 {
+        padding-bottom: $padding-large;
+    }
+}
+
+// --- Projects ---
+section#projets {
+    background-color: $bg-lightgrey;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+
+    p {
+        margin-top: 0;
+        margin-bottom: $margin-xlarge;
+    }
+
+    .container {
+        width: 100%;
+
+        img {
+            width: 25%;
+
+            @include breakpoint($bp-large) {
+                width: 100%;
+            }
+        }
+    }
+}
+
+//  --- Services ---
+section#services {
+    .container {
+        margin-top: $margin-xlarge;
+        // width: 100%;
+        padding: 0;
+        justify-content: space-around;
+
+
+        i {
+            font-size: 2rem;
+        }
+
+        h4 {
+            color: inherit;
+        }
+
+        >div {
+            padding-right: $padding-large;
+
+            &:last-child {
+                padding-right: 0;
+            }
+
+            @include breakpoint ($bp-large) {
+                padding-right: $padding;
+                padding-left: $padding;
+                padding-bottom: $padding;
+
+                &:last-child {
+                    padding-right: $padding;
+                }
+            }
+        }
+
+    }
+}
+
+// Latest-news
+section#latest-news {
+    background-color: $bg-darkblue;
+
+    h2 {
+        color: $white;
+    }
+
+    &>p {
+        margin-bottom: $margin-large;
+    }
+
+    .container {
+        margin-top: $margin-xlarge;
+
+    }
+
+    article {
+        width: 33%;
+        background: $white;
+        margin-right: $margin-large;
+        text-align: left;
+
+        @include breakpoint($bp-large) {
+            width: 100%;
+            margin-bottom: $margin;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        h4 {
+            font-size: 1.2rem;
+        }
+
+        div {
+            padding: 0 $padding $padding-large $padding;
+
+            p {
+                padding-bottom: $padding;
+            }
+        }
+    }
+
+
+}
+
+//****************************
+//  FOOTER
+//****************************
+footer {
+    background: $bg-grey;
+    padding-top: $padding-small;
+
+    // Menu du footer
+    nav {
+        text-align: left;
+        padding-bottom: $padding;
+
+        &>div {
+            width: 25%;
+
+            @include breakpoint($bp-large) {
+                padding-left: $padding-large;
+                width: 50%;
+            }
+        }
+
+        h2 {
+            color: $white;
+            text-transform: uppercase;
+            font-size: 1rem;
+        }
+
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        a {
+            color: $lightgrey;
+
+            &:hover {
+                color: $white;
+                text-decoration: none;
+            }
+        }
+
+        li::before {
+            content: ">";
+            margin-right: $margin-small;
+        }
+
+    }
+
+    section.copyright {
+        background: $bg-darkgrey;
+        font-size: .7rem;
+        padding: $padding-small;
+
+        span {
+            color: $white;
+        }
+    }
+}

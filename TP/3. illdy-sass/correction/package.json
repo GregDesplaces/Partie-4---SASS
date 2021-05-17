@@ -1,0 +1,16 @@
+{
+  "name": "illdy-wordpress-theme",
+  "version": "1.0.0",
+  "description": "Integration de la maquette illdy : theme pour wordpress",
+  "scripts": {
+    "sass": "sass ./app/sass/style.scss ./www/css/style.css --watch --style compressed"
+  },
+  "keywords": [
+    "sass",
+    "illdy",
+    "html",
+    "npm"
+  ],
+  "author": "Greg Desplaces",
+  "license": "ISC"
+}

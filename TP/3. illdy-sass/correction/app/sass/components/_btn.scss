@@ -1,0 +1,34 @@
+//****************************
+//  BUTTONS
+//****************************
+
+.btn {
+    display: inline-block;
+    padding: $padding-xsmall $padding-small;
+    border: 2px solid $btn-yellow;
+    background: $btn-yellow;
+    border-radius: 3px;
+    color: $white;
+    width: 4.5rem;
+    transition: all .15s ease;
+
+    &:hover {
+        background: darken($btn-yellow, 10);
+        border-color: darken($btn-yellow, 10);
+        text-decoration: none;
+        color: $white;
+    }
+
+    &.btn-white {
+        background: $btn-white;
+        border-color: $white;
+
+        &:hover {
+            background: darken($btn-white, 10);
+        }
+    }
+
+    &.btn-large {
+        padding: $padding-small $padding-large;
+    }
+}

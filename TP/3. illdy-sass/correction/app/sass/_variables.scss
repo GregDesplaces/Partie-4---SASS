@@ -1,0 +1,64 @@
+//****************************
+//  COLORS
+//****************************
+
+// ***  Background ***
+$bg-white: #fff;
+$bg-lightgrey : #fafafa;
+$bg-darkblue : #222f36;
+$bg-grey:#292825;
+$bg-darkgrey:#242320;
+
+// *** Font ***
+$white : #fff;
+$lightgrey:#8d9698;
+$darkgrey:#5e5e5e;
+$yellow:#f1d204;
+$red:#f18b6d;
+$purple:#6a4d8a;
+
+// *** Button ***
+$btn-yellow: $yellow;
+$btn-white: rgba(255, 255, 255, .2);
+
+//****************************
+//  FONTS
+//****************************
+
+// Import google font
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@600&display=swap');
+
+// Font-family variables
+$font :'Lato',
+sans-serif;
+$font-headings:'Poppins',
+sans-serif;
+
+//****************************
+//  MARGIN & PADDING
+//****************************
+
+$margin : 1rem;
+$margin-xxsmall : $margin * .125;
+$margin-xsmall : $margin * .25;
+$margin-small : $margin * .5;
+$margin-large : $margin * 2;
+$margin-xlarge : $margin * 4;
+$margin-xxlarge : $margin * 8;
+
+$padding : 2rem;
+$padding-xxsmall : $padding * .125;
+$padding-xsmall : $padding * .25;
+$padding-small : $padding * .5;
+$padding-large : $padding * 2;
+$padding-xlarge : $padding * 4;
+$padding-xxlarge : $padding * 8;
+
+//****************************
+//  BREAKPOINTS
+//****************************
+
+$bp-small : 320px;
+$bp-medium: 600px;
+$bp-large : 960px;
+$bp-xlarge :1080px;

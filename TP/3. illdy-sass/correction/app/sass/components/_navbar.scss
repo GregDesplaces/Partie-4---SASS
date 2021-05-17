@@ -1,0 +1,22 @@
+//****************************
+//  TOP-NAVBAR
+//****************************
+
+header {
+    nav {
+        a {
+            color: $white;
+
+            &:hover {
+                color: $yellow;
+                text-decoration: none;
+            }
+        }
+
+        li {
+            display: inline-block;
+            padding: $padding-xsmall $padding-small;
+
+        }
+    }
+}
